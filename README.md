@@ -17,10 +17,11 @@ The program will create a **new** VMF file as ***Output***, this file will conta
 
 The ***Input*** layout must follow a few simple rules for the walls to be made correctly:
 1. All the floors must be Snapped to the Grid, and share the **same thickness** of **16 units** on the Vertical Z axis.
-2. Floors must be aligned "flush" with each other (no gap) for intersection walls to be removed.
+2. All floors must be a ***minimum*** of **64 by 64 units** in the **X and Y axis** for best results.
+3. Floors must be aligned "flush" with each other (no gap) for intersection walls to be removed.
     - If there is a gap between 2 floors, then there will be a wall there
     - If you want a **Path** between the floors, the floors must be **Flush** with no gap
-3. All side faces of each floor brush **MUST** be Vertical, aka the face is perpendicular to the XY Plane in Hammer. 
+4. All side faces of each floor brush **MUST** be Vertical, aka the face is perpendicular to the XY Plane in Hammer. 
     - Ramps are allowed - but the sides must still be vertical, See image: [https://i.imgur.com/UFeyF9e.png](https://i.imgur.com/UFeyF9e.png)
 
 A **sample VMF file** is provided which will give you an idea of how the layout should be setup. You can see how it looks in the images below.
