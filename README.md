@@ -5,6 +5,14 @@ This program takes a [VMF file](https://developer.valvesoftware.com/wiki/VMF) as
 
 The program will create a **new** VMF file as ***Output***, this file will contain the automatically Generated walls as well as the original layout. (the *new* walls will be in their own [Visgroup](https://developer.valvesoftware.com/wiki/Visgroup) and can be hidden easily)
 
+
+## Directions
+
+1. Create a VMF file with a layout, all floors must be the same thickness (16 units) and snapped to the grid
+2. **Drag and Drop** the VMF file onto the **AutoWallGen.exe**
+3. For best results, press **'n'** when prompted for custom parameters, then press **Enter**
+4. A **new VMF file** will be created with the Automatically Generated Walls, it should be in the same folder as **AutoWallGen.exe**
+
 ### VMF Requirements
 
 The ***Input*** layout must follow a few simple rules for the walls to be made correctly:
@@ -17,19 +25,11 @@ The ***Input*** layout must follow a few simple rules for the walls to be made c
 
 A **sample VMF file** is provided which will give you an idea of how the layout should be setup. You can see how it looks in the images below.
 
-### Example
+## Example
 ![](https://i.imgur.com/QasEF5d.png)
 
 ### Process GIF
 ![](https://image.ibb.co/bEiamw/Auto_Wall_Gen_Gif_41.gif)
 
-
-
-## Directions
-
-1. Create a VMF file with a layout, all floors must be the same thickness (16 units) and snapped to the grid
-2. **Drag and Drop** the VMF file onto the **AutoWallGen.exe**
-3. For best results, press **'n'** when prompted for custom parameters, then press **Enter**
-4. A **new VMF file** will be created with the Automatically Generated Walls, it should be in the same folder as **AutoWallGen.exe**
 
 
