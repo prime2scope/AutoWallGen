@@ -16,7 +16,7 @@ The program will create a **new** VMF file as ***Output***, this file will conta
 ### VMF Requirements
 
 The ***Input*** layout must follow a few simple rules for the walls to be made correctly:
-1. All the floors must be Snapped to the Grid, and share the **same thickness** of **16 units** on the Vertical Z axis.
+1. All floors must be Snapped to the Grid, and share the **same thickness** of **16 units** on the Vertical Z axis.
 2. All floors must be a ***minimum*** of **64 by 64 units** in the **X and Y axis** for best results.
 3. Floors must be aligned "flush" with each other (no gap) for intersection walls to be removed.
     - If there is a gap between 2 floors, then there will be a wall there
