@@ -25,14 +25,11 @@ A **sample VMF file** is provided which will give you an idea of how the layout 
 
 
 
-### Directions
+## Directions
 
-1. Create a VMF file with a layout, all floors must be the same thickness (16 units) and snapped to the grid (ideally).
-  -
-2. Drag and Drop the VMF file onto the AutoWallGen.exe
-
-3. Best press 'n' when prompted for custom parameters, then press enter.
-
-4. A new VMF file will be created with the Automatically Generated Walls.
+1. Create a VMF file with a layout, all floors must be the same thickness (16 units) and snapped to the grid
+2. **Drag and Drop** the VMF file onto the **AutoWallGen.exe**
+3. For best results, press **'n'** when prompted for custom parameters, then press **Enter**
+4. A **new VMF file** will be created with the Automatically Generated Walls, it should be in the same folder as **AutoWallGen.exe**
 
 
