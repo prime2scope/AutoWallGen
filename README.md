@@ -11,7 +11,9 @@ The ***input*** layout must follow a few simple rules for the walls to be made c
 1. All the floors must be Snapped to the Grid, and share the same **thickness** of **16 units** on the Vertical Z axis.
 2. Floors must be aligned "flush" with each other (no gap) for intersection walls to be removed.
     - If there is a gap between 2 floors, then there will be a wall there
-3. All side faces of the floor MUST be Vertical, 
+    - If you want a Path, the floors must be Flush with no gap
+3. All side faces of each floor brush MUST be Vertical, ramps are allowed - but sides must still be vertical
+    - See image: [https://i.imgur.com/UFeyF9e.png](https://i.imgur.com/UFeyF9e.png)
 
 
 
