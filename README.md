@@ -1,5 +1,5 @@
 # AutoWallGen
-Automatically generates walls for the layout of a map made with [Valve Hammer Editor](https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor). (Images included below)
+Automatically generates walls for the layout of a map made with [Valve Hammer Editor](https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor). (*Images* included **below**)
 
 This program takes a [VMF file](https://developer.valvesoftware.com/wiki/VMF) as ***Input*** (where the VMF has a floor layout made of [Brushes](https://developer.valvesoftware.com/wiki/Brush))
 
